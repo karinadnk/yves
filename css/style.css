@@ -1,0 +1,53 @@
+.navbar {
+    background-color: #6f7e0d;;
+    padding: 10px;
+    color: white;
+}
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .navbar-search input {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-search button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-icons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .navbar-icons a:first-child {
+    margin-left: 0;
+  }
+
+  .navbar-icons #admin {
+    margin: 0;
+    width: 34px;
+    height: 23px;
+    background-color: #6f7e0d;
+  }
